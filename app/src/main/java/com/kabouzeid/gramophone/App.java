@@ -65,7 +65,7 @@ public class App extends Application {
     public static boolean isProVersion() {
 
         //---- This line is the original ----//
-        //return BuildConfig.DEBUG || app.billingProcessor.isPurchased(PRO_VERSION_PRODUCT_ID)
+        //return BuildConfig.D EBUG || app.billingProcessor.isPurchased(PRO_VERSION_PRODUCT_ID)
 
         //---- Always return true for pro version ----//
         return true;
